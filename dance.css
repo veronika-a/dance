@@ -15,13 +15,6 @@ a:hover, a:focus{
 	color:#fff;
 }
 
-
-.img_smalldog{
-	background: url(img/k4.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-}
 .slider-sq_block {
 	background: rgba(255,255,255,0.7);
 	padding: 33px 43px 25px;
@@ -58,6 +51,7 @@ a:hover, a:focus{
 	position: fixed !important;
 	top:0;
 	z-index: 1000 !important;
+	float: right;
 }
 .navbar-toggler{
 	width: 47px;
@@ -256,7 +250,7 @@ a:hover, a:focus{
 	padding: 56px 0 48px;
 }
 .sForm h3 {
-	font: 52px/52px 'PT Sans';
+	font-size: 52px;
 	color: #fff;
 	letter-spacing: -1px;
 }
