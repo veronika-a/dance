@@ -1,5 +1,5 @@
 body{
-	background-color: #f2f2f2;
+	background-color: #222222;
 	font-weight: 300;
 	-webkit-font-smoothing:antialiased;  /*для плавного текста*/
 	-webkit-overflow-scrolling:touch;   /*для плавного скролинга*/
@@ -286,12 +286,48 @@ a:hover, a:focus{
 	margin: 0;
 }
 
+.social {
+    background: #047c86;
+    padding: 90px 0;
+    text-align: center;
+}
+
+.social h4 {
+    color: #fff;
+    margin-top: 24px;
+
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
 
 
+.b-block {
+    padding: 47px 0;
+    font: 13px/24px 'Roboto';
+    color: #fff;
+    background: #222222;
+}
+.b-block a{
+	color: #fff;
+}
+.b-block ul li{
+	    list-style: none;
+}
+.b-block h5 {
+    font-size: 16px;
+    line-height: 22px;
+    color: #222222;
+    font-weight: 900;
+    text-transform: uppercase;
+}
 
-
-
-
+@font-face {
+	font-family: Roboto;
+	src: url("font/Roboto-Black.ttf");
+	font-weight: normal;
+}
 
 
 
